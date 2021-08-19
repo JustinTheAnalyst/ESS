@@ -12,24 +12,24 @@
 	if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist))
 	{
 		/*Live*/
-		define("SITE_URL", "www.mispmis.com");
+		define("SITE_URL", "www.waikatowebdesign.com/projects/ess/");
 		
 		/*Live*/
 		 define("HOST", "localhost");
-		 define("DB_USERNAME", "just1st_admin");
-		 define("DB_PASSWORD", "KI747LNWMJQL");
-		 define('DB_NAME', "just1st_leaves");
+		 define("DB_USERNAME", "mgr_admin");
+		 define("DB_PASSWORD", "");
+		 define('DB_NAME', "essdb");
 	}
 	else 
 	{
 	    /*Local*/
-	    define("SITE_URL", "http://localhost/mispmis/");
+	    define("SITE_URL", "http://localhost/ess/");
 	    
 	    /*Local*/
 	    define("HOST", "localhost");
 	    define("DB_USERNAME", "root");
 	    define("DB_PASSWORD", "");
-	    define('DB_NAME', "just1st_leaves");
+	    define('DB_NAME', "ess");
 	}
 	
 	define("DB_PREFIX", "");
@@ -37,12 +37,12 @@
 	/**
 	 * CUSTOMER NAME
 	 */
-	define("CUSTOMER_NAME", "Majlis Islam Sarawak");
+	define("CUSTOMER_NAME", "ABC Company");
 	
 	/**
 	 * PROJECT NAME
 	 */
-	define("PROJECT_NAME", "Employee Management System");
+	define("PROJECT_NAME", "Employee Self Service Portal");
 	
 	/**
 	 * SYSTEM VERSION
