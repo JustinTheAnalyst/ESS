@@ -1,8 +1,8 @@
 <?php
 define("HOST", "localhost");
-define("DB_USERNAME", "just1st_admin");
-define("DB_PASSWORD", "KI747LNWMJQL");
-define('DB_NAME', "just1st_leaves");
+define("DB_USERNAME", "mgr_admin");
+define("DB_PASSWORD", "");
+define('DB_NAME', "essdb");
 
 $DB = new PDO('mysql:host='.HOST.';dbname='.DB_NAME.';charset=utf8', DB_USERNAME, DB_PASSWORD);
 
