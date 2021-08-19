@@ -12,7 +12,7 @@
 	if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist))
 	{
 		/*Live*/
-		define("SITE_URL", "www.mispmis.com");
+		define("SITE_URL", "www.waikatowebdesign.com/projects/ess/");
 		
 		/*Live*/
 		 define("HOST", "localhost");
@@ -23,13 +23,13 @@
 	else 
 	{
 	    /*Local*/
-	    define("SITE_URL", "http://localhost/mispmis/");
+	    define("SITE_URL", "http://localhost/ess/");
 	    
 	    /*Local*/
 	    define("HOST", "localhost");
 	    define("DB_USERNAME", "root");
 	    define("DB_PASSWORD", "");
-	    define('DB_NAME', "just1st_leaves");
+	    define('DB_NAME', "ess");
 	}
 	
 	define("DB_PREFIX", "");
