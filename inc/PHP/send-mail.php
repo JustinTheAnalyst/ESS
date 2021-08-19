@@ -1,6 +1,6 @@
 <?php
-    $to = "just1st_85@hotmail.com.com"; 
-    $from = "info@oxpro.com"; 
+    $to = "just1st_85@hotmail.com"; 
+    $from = "no-reply@abc.com"; 
     $headers = "From: $from"; 
     $subject = "New Owner Created"; 
     $fields = array(); 
