@@ -6,7 +6,7 @@
 		<meta charset="utf-8">
 		<!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
 
-		<title> <?php echo $page_title != "" ? $page_title." - " : ""; ?>Bearotech </title>
+		<title> <?php echo $page_title != "" ? $page_title." - " : ""; ?>ABC </title>
 		<meta name="description" content="">
 		<meta name="author" content="">
 
@@ -124,7 +124,7 @@
 
 						<!-- PLACE YOUR LOGO HERE -->
 						<span id="logo"> 
-							<img src="<?php echo ASSETS_URL; ?>/img/logo.png" alt="Bearotech"> 
+							<img src="<?php echo ASSETS_URL; ?>/img/logo.png" alt="ABC"> 
 						</span>
 						<!-- END LOGO PLACEHOLDER -->
 
